@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #D8EBD8;">
+    <!-- Imagem do ícone -->
+    <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="225.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView.image>
+            <Image url="@/path/to/your/vetcare_icon.png" /> <!-- Insira aqui o caminho para o ícone -->
+        </ImageView.image>
+    </ImageView>
+
+    <!-- Texto "Vet Care" -->
+    <Label layoutX="200.0" layoutY="220.0" text="VET CARE" style="-fx-text-fill: #2F4F4F;">
+        <font>
+            <Font name="Arial Black" size="24.0" />
+        </font>
+    </Label>
+</AnchorPane>
